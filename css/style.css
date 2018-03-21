@@ -1,0 +1,53 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html,body
+{
+    width: 100%;
+    height: 100%;
+    font-size:14px;
+    font-weight: normal;
+}
+.background{
+    width: auto;
+    height: 100%;
+    background-image: url(../back.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    overflow-y: auto;
+}
+img {
+    border-radius: 100%;
+    
+}
+.roundpic{
+    
+    margin-left: 530px;
+    margin-top: 150px;
+}
+.name{
+    margin-left: 500px;
+    margin-top: 10px;
+    font-size:50px;
+}
+.container{
+    width: 90%;
+    overflow: hidden;
+    background: skyblue;
+    margin: 10px auto;
+    padding: 10px 0px;
+}
+.container ul{
+    padding: 0px;
+    margin: 0px;
+}
+.container ul li{
+    list-style: none;
+    float: left;
+    width: 20%;
+    height: 300px;
+    background: black;
+    margin: 40px 40px 0px 40px;
+}
